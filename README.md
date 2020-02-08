@@ -1,3 +1,8 @@
+# Known Issues
+* indent-host-file.pl detects the size of each field automatically and adjust to it. I did this because I found it more flexible to changes and also to adhere with the example given in the second task.
+
+-----------
+
 # Challenge:
 
 :one: Using bash write a script to find and remove duplicated fake IP addresses lines of ["control_file.txt"](/control_file.txt) file and save the output at /tmp/output_1.txt
