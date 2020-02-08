@@ -46,8 +46,6 @@ while (<$IN_FILE>) {
 		# merge inline comment again
 		if (@line > 1) {
 			print $OUT_FILE $SEPARATOR.'#'.@line[1..$#line];
-		} else {
-			print $OUT_FILE "\n";
 		}
 	}
 }
